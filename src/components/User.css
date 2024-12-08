@@ -1,0 +1,34 @@
+.userlist-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.userlist-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.userlist-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.userlist {
+  list-style-type: none;
+  padding: 0;
+}
+
+.userlist-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 18px;
+}

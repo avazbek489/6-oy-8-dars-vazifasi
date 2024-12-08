@@ -1,0 +1,98 @@
+.addbook-container {
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px #000;
+}
+
+.addbook-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.addbook-list {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.addbook-item {
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addbook-item.read {
+  background-color: #d4edda;
+}
+
+.addbook-item.unread {
+  background-color: #f8d7da;
+}
+
+.addbook-item-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.addbook-item-actions button {
+  margin-left: 8px;
+}
+.title {
+  font-size: 24px;
+  color: #f00000;
+}
+
+.author {
+  font-size: 30px;
+  color: #101010;
+}
+.addbook-card {
+  margin-top: 20px;
+}
+.addbook-input-container {
+  margin-top: 24px;
+}
+
+.addbook-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  width: 99%;
+}
+
+.addbook-button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.toggle-read {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-book {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

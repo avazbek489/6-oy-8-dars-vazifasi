@@ -1,0 +1,37 @@
+.job-container {
+  padding: 24px;
+
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px #000;
+}
+
+.job-tittle {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.job-input {
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  margin-bottom: 16px;
+
+  width: 100%;
+}
+.main-job {
+  padding: 10px;
+}
+.job-list {
+  padding: 0;
+  margin: 0;
+}
+
+.job-item {
+  padding: 16px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
